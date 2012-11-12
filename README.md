@@ -6,7 +6,7 @@ Adds view helper method that enables icon option for link_to and form_tag. Meant
 
 Add this line to your application's Gemfile:
 
-    gem 'IconLink'
+    gem 'icon_link'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install IconLink
+    $ gem install icon_link
 
 ## Usage
 
