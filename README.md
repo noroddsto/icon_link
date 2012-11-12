@@ -1,0 +1,30 @@
+# IconLink
+
+Adds view helper methods that enables icon option for link_to and form submit buttons. Meant to be used with Font Awesome or Twitter Bootstrap.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'IconLink'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install IconLink
+
+## Usage
+
+icon_link_to("Text", url, options={})
+icon_submit_button("Text", options={})
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
