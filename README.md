@@ -1,6 +1,6 @@
 # IconLink
 
-Adds view helper methods that enables icon option for link_to and form submit buttons. Meant to be used with Font Awesome or Twitter Bootstrap.
+Adds view helper method that enables icon option for link_to and form_tag. Meant to be used with Font Awesome or Twitter Bootstrap.
 
 ## Installation
 
@@ -18,8 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-icon_link_to("Text", url, options={})
-icon_submit_button("Text", options={})
+icon_link_to("Text", url, icon: "icon-edit"), 
+icon_submit_tag("Text", icon: "icon-new")
 
 ## Contributing
 
