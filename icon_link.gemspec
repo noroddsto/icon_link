@@ -17,6 +17,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_development_dependency "rspec"
+  gem.add_development_dependency "rake"
   gem.add_development_dependency "capybara"
   gem.add_development_dependency('actionpack', '~> 3.0')
 end
