@@ -1,6 +1,6 @@
 # IconLink
 
-Adds view helper method that enables icon option for link_to and form_tag. Meant to be used with Font Awesome or Twitter Bootstrap.
+View helper methods that makes it easy to add the html that is needed to display icons (from Font Awesome or Twitter Bootstrap) within links, or buttons.
 
 ## Installation
 
@@ -12,14 +12,16 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install icon_link
-
 ## Usage
 
-icon_link_to("Text", url, icon: "icon-edit"), 
-icon_submit_tag("Text", icon: "icon-new")
+  icon_link_to("Example", "http://www.example.com", icon: "comment-icon")
+  # => <a href="http://www.example.com" class="btn"><i class="icon-comment"></i> Title</a>
+
+  icon_button_tag("Example", icon: "comment-icon")
+  # => <button class="btn" type="submit"><i class="icon-comment"></i> Create model</button>
+  
+  iconize("Example", icon: "comment-icon")
+  # => <i class="icon-comment"></i> Title
 
 ## Contributing
 

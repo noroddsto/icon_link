@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = IconLink::VERSION
   gem.authors       = ["NorOddSto"]
   gem.email         = ["oddgeir@kjorren.com"]
-  gem.description   = %q{Adds view helper method that enables icon option for link_to and form_tag. Meant to be used with Font Awesome or Twitter Bootstrap. }
-  gem.summary       = %q{Helper methods for adding icon to links and submit buttons}
+  gem.description   = %q{ View helper methods that makes it easy adding icons to links and buttons. Meant to be used with Font Awesome or Twitter Bootstrap.}
+  gem.summary       = %q{ Helper methods for adding icon to links and submit buttons }
   gem.homepage      = ""
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
