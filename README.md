@@ -1,4 +1,4 @@
-# IconLink
+# IconLink [![Build Status](https://secure.travis-ci.org/noroddsto/icon_link.png?branch=master)](https://travis-ci.org/noroddsto/icon_link)
 
 View helper methods that makes it easy to add the html that is needed to display icons (from Font Awesome or Twitter Bootstrap) within links, or buttons.
 

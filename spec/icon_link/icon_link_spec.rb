@@ -37,7 +37,6 @@ describe IconLink::ViewHelpers do
     let(:result){ icon_button_tag(title, options) }
   
     it "should have the right title" do
-      puts result
       result.should have_xpath("//button[text()=' #{title}']")   
     end
     it "should have the right class" do
