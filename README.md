@@ -16,18 +16,18 @@ And then execute:
 
 Link with icon:
 
-  icon_link_to("Example", "http://www.example.com", icon: "comment-icon")
-  # => <a href="http://www.example.com" class="btn"><i class="icon-comment"></i> Title</a>
+    icon_link_to("Example", "http://www.example.com", icon: "comment-icon")
+    # => <a href="http://www.example.com" class="btn"><i class="icon-comment"></i> Title</a>
 
 Button with icon:
 
-  icon_button_tag("Example", icon: "comment-icon")
-  # => <button class="btn" type="submit"><i class="icon-comment"></i> Create model</button>
+    icon_button_tag("Example", icon: "comment-icon")
+    # => <button class="btn" type="submit"><i class="icon-comment"></i> Create model</button>
   
 Text with icon:
 
-  iconize("Example", icon: "comment-icon")
-  # => <i class="icon-comment"></i> Title
+    iconize("Example", icon: "comment-icon")
+    # => <i class="icon-comment"></i> Title
 
 ## Contributing
 
