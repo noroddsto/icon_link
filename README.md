@@ -6,7 +6,7 @@ View helper methods that makes it easy to add the html that is needed to display
 
 Add this line to your application's Gemfile:
 
-    gem 'icon_link', git: 'git://github.com/noroddsto/icon_link.git'
+    gem 'icon_link'
 
 And then execute:
 
