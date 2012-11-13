@@ -29,6 +29,8 @@ Text with icon:
     iconize("Example", icon: "comment-icon")
     # => <i class="icon-comment"></i> Title
 
+See documentation: [rubydoc](http://rubydoc.info/github/noroddsto/icon_link/master/frames)
+
 ## Contributing
 
 1. Fork it
