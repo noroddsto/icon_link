@@ -31,7 +31,7 @@ Text with icon:
 
 ```ruby
 iconize("Example", icon: "comment-icon")
-# => <i class="icon-comment"></i> Title
+# => <i class="icon-comment"></i> Example
 ```  
 
 See documentation: [rubydoc](http://rubydoc.info/github/noroddsto/icon_link/master/frames)
