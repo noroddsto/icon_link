@@ -18,13 +18,13 @@ Link with icon:
 
 ```ruby
 icon_link_to("Example", "http://www.example.com", icon: "comment-icon")
-# => <a href="http://www.example.com" class="btn"><i class="icon-comment"></i> Title</a>
+# => <a href="http://www.example.com" class="btn"><i class="icon-comment"></i> Example</a>
 ```
 Button with icon:
 
 ```ruby
-icon_button_tag("Example", icon: "comment-icon")
-# => <button class="btn" type="submit"><i class="icon-comment"></i> Create model</button>
+icon_button_tag("Create example", icon: "comment-icon")
+# => <button class="btn" type="submit"><i class="icon-comment"></i> Create example</button>
 ```  
 
 Text with icon:
@@ -34,7 +34,7 @@ iconize("Example", icon: "comment-icon")
 # => <i class="icon-comment"></i> Example
 ```  
 
-See documentation: [rubydoc](http://rubydoc.info/github/noroddsto/icon_link/master/frames)
+See documentation: [RubyDoc](http://rubydoc.info/github/noroddsto/icon_link/master/frames)
 
 ## Contributing
 
