@@ -1,6 +1,7 @@
 # IconLink 
 [![Build Status](https://secure.travis-ci.org/noroddsto/icon_link.png?branch=master)](https://travis-ci.org/noroddsto/icon_link) 
 [![Code Climate](https://codeclimate.com/github/noroddsto/icon_link.png)](https://codeclimate.com/github/noroddsto/icon_link)
+[![Gem Version](https://badge.fury.io/rb/icon_link.png)](http://badge.fury.io/rb/icon_link)
 
 View helper methods that makes it easy to add the html that is needed to display icons (from Font Awesome or Twitter Bootstrap) within links, or buttons.
 
