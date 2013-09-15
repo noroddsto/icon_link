@@ -77,4 +77,12 @@ describe IconLink::ViewHelpers do
     end
   end
   
+  describe "icon_for" do
+    let(:result){ icon_for("icon-comment") }
+    
+    it "should have the right markup" do
+      result.should have_xpath("//i[@class='icon-comment']")
+    end
+  end
+  
 end

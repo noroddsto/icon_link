@@ -19,21 +19,28 @@ And then execute:
 Link with icon:
 
 ```ruby
-icon_link_to("Example", "http://www.example.com", icon: "comment-icon")
+icon_link_to("Example", "http://www.example.com", icon: "icon-comment")
 # => <a href="http://www.example.com" class="btn"><i class="icon-comment"></i> Example</a>
 ```
 Button with icon:
 
 ```ruby
-icon_button_tag("Create example", icon: "comment-icon")
+icon_button_tag("Create example", icon: "icon-comment")
 # => <button class="btn" type="submit"><i class="icon-comment"></i> Create example</button>
 ```  
 
 Text with icon:
 
 ```ruby
-iconize("Example", icon: "comment-icon")
+iconize("Example", icon: "icon-comment")
 # => <i class="icon-comment"></i> Example
+```  
+
+Only icon:
+
+```ruby
+icon_for("icon-comment")
+# => <i class="icon-comment"></i>
 ```  
 
 See documentation: [RubyDoc](http://rubydoc.info/github/noroddsto/icon_link/master/frames)

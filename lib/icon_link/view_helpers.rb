@@ -5,7 +5,7 @@ module IconLink
     # but takes an additional :icon option. Type is set to submit by default.
     #
     # ==== Examples
-    #   icon_button_tag("Example", icon: "comment-icon")
+    #   icon_button_tag("Example", icon: "icon-comment")
     #   # => <button class="btn" type="submit"><i class="icon-comment"></i> Create model</button>
     def icon_button_tag(title, options={})
       options[:type] ||= 'submit'
@@ -18,24 +18,32 @@ module IconLink
     # but takes an additional :icon option.
     #
     # ==== Examples
-    #   icon_link_to("Example", "http://www.example.com", icon: "comment-icon")
+    #   icon_link_to("Example", "http://www.example.com", icon: "icon-comment")
     #   # => <a href="http://www.example.com" class="btn"><i class="icon-comment"></i> Title</a>  
     def icon_link_to(title, url, options = {})
-      link = link_to(iconize(title, options[:icon]), url, options.merge(icon: nil))
+      link_to(iconize(title, options[:icon]), url, options.merge(icon: nil))
     end
     
     # Adds icon to a given text
     #
     # ==== Examples
-    #   iconize("Example", icon: "comment-icon")
+    #   iconize("Example", icon: "icon-comment")
     #   # => <i class="icon-comment"></i> Title
     def iconize(text, icon = nil)
       if icon.to_s.empty?
         text
       else
-        content_tag(:i, nil, class: icon) + " " + text
+        icon_for(icon) + " " + text
       end
     end
-       
+    
+    # Returns <i class="your-icon"></i>
+    #
+    # === Examples
+    #   icon_for("icon-comment")
+    #   # => <i class="your-icon"></i>
+    def icon_for(icon)
+      content_tag(:i, nil, class: icon.to_s)
+    end
   end
 end
