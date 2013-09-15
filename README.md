@@ -24,6 +24,7 @@ Link with icon:
 icon_link_to("Example", "http://www.example.com", icon: "icon-comment")
 # => <a href="http://www.example.com" class="btn"><i class="icon-comment"></i> Example</a>
 ```
+
 Button with icon:
 
 ```ruby
