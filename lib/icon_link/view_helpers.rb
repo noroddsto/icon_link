@@ -41,7 +41,7 @@ module IconLink
     #
     # === Examples
     #   icon_for("icon-comment")
-    #   # => <i class="your-icon"></i>
+    #   # => <i class="icon-comment"></i>
     def icon_for(icon)
       content_tag(:i, nil, class: icon.to_s)
     end
